@@ -58,5 +58,6 @@ async function main (opts) {
     slicer.clear()
   }
   bench.end(n)
+  slicer.export()
   endoscope.close()
 }
